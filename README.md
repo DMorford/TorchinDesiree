@@ -37,7 +37,7 @@ To successfully compile PyTorch with full GPU acceleration using CUDA 12.x for t
 
 ## 🤘 Why "Desiree"?
 
-Because this machine is the heartbeat of a bigger vision—running AI avatars, local LLMs, and wild multimedia magic. She's the rockstar behind the curtain powering an AI co-host project. This repo just captures the warmup act before the main show.
+Because this machine is the heartbeat of a bigger vision—running AI avatars, local LLMs, and wild multimedia magic. She's the rockstar behind the curtain powering an amazing project. This repo just captures the warmup act before the main show.
 
 Think of it as the technical prequel to something much cooler. 🎬
 
