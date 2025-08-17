@@ -1,0 +1,87 @@
+# TorchinDesiree - PyTorch Build .gitignore
+# Keeps repo lean by excluding build artifacts
+
+# Build directories
+build/
+dist/
+out/
+target/
+bin/
+obj/
+
+# PyTorch build artifacts
+*.so
+*.pyd
+*.dll
+*.lib
+*.exp
+*.pdb
+*.obj
+*.o
+
+# CUDA build outputs
+*.cubin
+*.fatbin
+*.ptx
+
+# CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+!CMakeLists.txt
+
+# Visual Studio build files
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.filters
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+conda-env/
+
+# Log files
+*.log
+logs/
+build-logs/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Archives and downloads
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# CUDA installer files
+cuda_*.exe
+cudnn*.zip
+
+# Test outputs
+test-output/
+test-results/
